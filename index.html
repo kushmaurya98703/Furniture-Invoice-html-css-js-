@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Invoice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar Section -->
+        <div class="navbar">
+            <div class="logo"></div>
+            <h1>Invoice Maker</h1>
+        </div>
+
+        <!-- Company Details Section -->
+        <div class="company-details">
+            <h2>Company Details</h2>
+            <form id="company-form">
+                <input class="data" type="text" id="company-name" placeholder="Enter Company Name.." required>
+                <input class="data" type="email" id="email" placeholder="Enter your Email.." required>
+                <input class="data" type="number" id="mobile-num" placeholder="Enter Mobile Number..." required>
+                <button type="submit" id="submit-company-details">Submit Details</button>
+            </form>
+        </div>
+
+        <!-- Invoice Form Section -->
+        <div class="invoice-form">
+            <h2>Invoice Form</h2>
+            <form id="collect-data">
+                <input class="data-1" type="number" id="sr-no" placeholder="Enter Serial Number" required>
+                <input class="data-1" type="text" id="Purpose" placeholder="Enter Purpose" required>
+                <input class="data-1" type="text" id="size" placeholder="Size = 2'*3'" required>
+                <input class="data-1" type="text" id="foot" placeholder="Foot = 6'" required>
+                <input class="data-1" type="number" id="rate" placeholder="Rate = 200$" required>
+                <input class="data-1" type="submit" value="Add Invoice">
+            </form>
+        </div>
+
+        <!-- Advance Payment Section -->
+        <div class="advance-payment">
+            <h2>Advance Payment</h2>
+            <form id="advance-form">
+                <input class="data-1" type="number" id="advance-payment" placeholder="Enter Advance Payment" required>
+            </form>
+        </div>
+
+        <h2>Invoice Data</h2>
+        <table id="Invoice-data">
+            <thead>
+                <tr>
+                    <th>Sr.No</th>
+                    <th>Purpose</th>
+                    <th>Size</th>
+                    <th>Foot</th>
+                    <th>Rate</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="invoice-list">
+            </tbody>
+        </table>
+
+        <button id="downloadBtn">Download PDF</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.14/jspdf.plugin.autotable.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
