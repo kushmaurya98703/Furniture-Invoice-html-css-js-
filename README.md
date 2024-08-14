@@ -1,7 +1,5 @@
 # 🧾 Invoice Maker
 
-![Invoice Maker]
-
 ## 📜 Project Description
 **Invoice Maker** is a web-based application tailored for small contractors like furniture makers, carpenters, and similar professions. This tool simplifies the process of creating and downloading invoices in PDF format, ensuring your business operations run smoothly.
 
