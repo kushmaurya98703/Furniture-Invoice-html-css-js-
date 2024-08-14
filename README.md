@@ -1,6 +1,6 @@
 # 🧾 Invoice Maker
 
-![Invoice Maker]([https://kushmaurya98703.github.io/Furniture-Invoice-html-css-js-/assets/invoice-maker-banner.png](https://photos.app.goo.gl/bcThZ41nJ89ZhgHi9))
+![Invoice Maker]
 
 ## 📜 Project Description
 **Invoice Maker** is a web-based application tailored for small contractors like furniture makers, carpenters, and similar professions. This tool simplifies the process of creating and downloading invoices in PDF format, ensuring your business operations run smoothly.
@@ -18,6 +18,7 @@ Click the link below to view and use the Invoice Maker:
 [**Invoice Maker Live Demo**](https://kushmaurya98703.github.io/Furniture-Invoice-html-css-js-/)
 
 ## 📷 Screenshots
+
 ### Invoice Creation Form
 ![Invoice Form]([https://kushmaurya98703.github.io/Furniture-Invoice-html-css-js-/assets/invoice-form-screenshot.png](https://photos.app.goo.gl/bcThZ41nJ89ZhgHi9))
 
