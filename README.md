@@ -18,9 +18,7 @@ Click the link below to view and use the Invoice Maker:
 [**Invoice Maker Live Demo**](https://kushmaurya98703.github.io/Furniture-Invoice-html-css-js-/)
 
 ## 📷 Screenshots
-
-### Invoice Creation Form
-![Invoice Form]([https://kushmaurya98703.github.io/Furniture-Invoice-html-css-js-/assets/invoice-form-screenshot.png](https://photos.app.goo.gl/bcThZ41nJ89ZhgHi9))
+(https://photos.app.goo.gl/qiKvkcBQrf5qzaGq8)
 
 ### Generated PDF Example
 Example([(https://photos.app.goo.gl/DerQAVUVDCMAJD3P6))
